@@ -1,6 +1,6 @@
 Fortgeschrittene Programmierung (Java 2)
 
-# Übung 10
+# Übung 9
 
 
 Klonen Sie dieses Repository direkt in Eclipse und importieren Sie das Projekt. Legen Sie einen neuen Branch an, den Sie nach Ihrem GitHub-Benutzernamen benennen.
@@ -8,7 +8,7 @@ Klonen Sie dieses Repository direkt in Eclipse und importieren Sie das Projekt. 
 
 ## Aufgabe 1
 
-Machen Sie aus dem Projekt ein Maven-Projekt. Verwenden Sie dazu als `groupId` `idh.java` und als `artifactId` `exercise-10`, sowie die voreingestellte Versionsnummer `0.0.1-SNAPSHOT`.
+Machen Sie aus dem Projekt ein Maven-Projekt. Verwenden Sie dazu als `groupId` `idh.java` und als `artifactId` `exercise-09`, sowie die voreingestellte Versionsnummer `0.0.1-SNAPSHOT`.
 
 Importieren Sie die Bibliothek [Apache Commons Collections](https://commons.apache.org/proper/commons-collections/) in Ihr Projekt. Apache Commons ist eine Sammlung verschiedener Java-Bibliotheken für verschiedene Zwecke, Commons Collections bietet Funktionen rund um Collections an. 
 
