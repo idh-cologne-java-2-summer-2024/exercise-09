@@ -1,16 +1,12 @@
 package idh.java;
-import org.apache.commons.collections4.list.TreeList;
-import java.util.ArrayList;
-import java.util.LinkedList;
+import org.apache.commons.collections4.CollectionUtils;
 
-public class Test {
-	
-	TreeList<Integer> treeList = new TreeList<>();
-	ArrayList<Integer> arrayList = new ArrayList<>();
-	LinkedList<Integer> linkedList = new LinkedList<>();
-	
-	
-	
-	
+import java.util.Arrays;
+import java.util.List;
 
+public class ExampleUsage {
+    public static void main(String[] args) {
+        List<String> list1 = Arrays.asList("A", "B", "C");
+        List<String> list2 = Arrays.asList("B", "C", "D");
+    }
 }
