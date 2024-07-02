@@ -9,4 +9,4 @@ public class ExampleUsage {
         List<String> list1 = Arrays.asList("A", "B", "C");
         List<String> list2 = Arrays.asList("B", "C", "D");
     }
-}
+}{}
