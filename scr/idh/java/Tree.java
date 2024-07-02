@@ -87,13 +87,16 @@ public class Tree<T> {
         }
     
         public void wsum() {
+        	if (this.value instanceof Integer){
         	System.out.println(innerwsum(0,0));
+        	}
+        	else System.out.println("Wrong Value Type");
         	
         }
     
         private int innerwsum(int weight, int sum) {
    
-        	sum=sum+(intValue(this.value)*weight);
+        	sum=sum+(this.value*weight);
 
         	for (Tree<T> child : children) {
         	    child.innerwsum(weight + 1, sum);

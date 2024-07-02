@@ -27,7 +27,7 @@ public class Speedtest {
 				this.tl.add(i, r.nextInt(100000));
 			}
 			for (int i=0; i<=10000; i++) {
-				this.tl.add(r.nextInt(10000), r.nextInt(100000));
+				this.tl.add(r.nextInt(100000), r.nextInt(10000));
 			}
 		long end = System.currentTimeMillis();
 		System.out.println("This TreelistList has a speed of: "+ (end-start) +" ms");
@@ -42,7 +42,7 @@ public class Speedtest {
 				this.ll.add(i, r.nextInt(100000));
 			}
 			for (int i=0; i<10000; i++) {
-				this.ll.add(r.nextInt(100000), r.nextInt(10000));
+				this.ll.add(r.nextInt(10000), r.nextInt(100000));
 			}
 		double end = System.currentTimeMillis();
 		System.out.println("This LinkedList has a speed of: "+ (end-start)+" ms");
@@ -57,7 +57,7 @@ public class Speedtest {
 				this.al.add(i, r.nextInt(100000));
 			}
 			for (int i=0; i<10000; i++) {
-				this.al.add(r.nextInt(100000), r.nextInt(10000));
+				this.al.add(r.nextInt(10000), r.nextInt(100000));
 			}
 		double end = System.currentTimeMillis();
 		System.out.println("This ArrayList has a speed of: "+(end-start)+" ms");
